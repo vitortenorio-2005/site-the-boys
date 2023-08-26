@@ -1,0 +1,246 @@
+body{
+
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: absolute;
+    width: 100.01%;
+    height: 20%;
+    background-image: url(../img/título2.jpg); /*Inserir imagens como plano de fundo na div*/
+    background-size: contain;
+    background-repeat: no-repeat; /*nao repetir a imagem*/
+    background-size: 100% 110%
+}
+aside{
+
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(81, 81, 81, 2.0);
+}
+ul{
+    list-style: none;
+   
+}
+#w{
+    margin-left: -8%;
+    width: 98%;
+} 
+
+#b{ 
+    color: white;
+
+
+}
+#v:hover{
+    width: 1005;
+    background-color: rgb(240, 218, 22);
+    color: black;
+    transition: 0.5s ease-out; 
+
+}
+
+#r{
+    padding: 100px 0px 0px 0px;
+    width: 100%;
+    height: 86.5%;
+    background-color:rgba(0, 0, 0, 0.6);
+}
+
+
+#op{
+    height:10px ;
+    background-color: red;
+
+} 
+
+
+a{
+    color: yellow;
+    transition: 0.5s ease-out; /*colocar tempo de transição*/
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 0px 2px 3px #888888;
+    text-decoration: none; /*tira o sublinhado do link ou texto*/
+
+}
+
+
+a:hover{
+    color: black;
+    transition: 0.5s ease-out; /*colocar tempo de transição*/
+
+}
+
+#esq{
+    line-height: 120px;
+    position: absolute;
+    width: 17.7%;
+    height: 75.9%;
+    margin-top: 10%;
+	border:2px solid yellow;
+    background-color: black;
+
+}
+
+#dir{
+
+    position: absolute;
+    background-image: url(../img/laterais.jpg);
+    width: 9.75%;
+    height: 75.9%;
+    margin-top: 10%;
+	border:2px solid yellow; 
+    margin-left: 90%;
+ 
+
+}
+
+article{
+
+    position: absolute;
+    width: 73.5%;
+    height: 75.9%;
+    margin-top: 10%;
+    margin-right: 25%;
+    margin-left: 17.8%;
+    background-image: url(../img/fundo.jpg);
+    background-size: 100% 100%;
+	box-shadow: 2px 2px 5px 1px yellow;
+}
+iframe{
+    overflow-y: scroll ;
+}
+
+footer{
+
+    position: absolute;
+    width: 100%;
+    height: 35px;
+    background-color: black;
+    color: #ffffff;
+    margin-top: 48.5%;
+    text-align: center;
+
+}
+
+img{
+    width: 100%;
+
+}
+
+#x{
+    width: 100%;
+    height: 102%;
+    border: none;
+    background-color: rgba(0,0,0,0.6);/*insere uma cor de fundo utilizando as cores RGB e ultimo parametro é o grau de transparencia*/
+}
+
+
+
+#f{ 
+    font-size: 20px;
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+    letter-spacing: 1.2px;
+    color: white;
+}
+
+h1{
+    font-size: 70px;
+    text-align: center; 
+    color:rgb(243, 81, 81);
+}
+h2{
+    font-size: 50px;
+    text-align: center; 
+    color:rgb(233, 227, 151);
+}
+
+#j{
+    font-size: 50px;
+    text-align: center; 
+    color:rgb(233, 227, 151);
+}
+
+h3{
+    font-size: 30px;
+	margin-left: 100px;
+    color:rgb(255, 255, 255);
+}
+
+ul{
+	text-indent: 10px; /*cria o espaço no inicio do paragrafo*/
+    text-align: justify; /*Deixa o texto alinhado na esquerda e na direita*/
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#l{
+    margin-left: 35%;
+
+}
+
+#g{
+    text-align: center;
+
+}
+
+
+
+
+p{
+    text-indent: 50px; /*cria o espaço no inicio do paragrafo*/
+    text-align: justify; /*Deixa o texto alinhado na esquerda e na direita*/
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+
+
+.hq{
+    float: left;
+    margin: 20px 0px 0px 30px;
+    width: 200px;
+    height: 450px;
+    border: 5px solid rgba(240, 8, 8, 0.719);
+}
+.hq:last-of-type{
+    margin-left: 0px;
+}
+
+#k{
+    float: left;
+    margin: 20px 0px 0px 30px;
+    width: 325px;
+    height: 575px;
+    border: 5px solid rgba(240, 8, 8, 0.719);
+
+
+}
+
+#m{
+    float: left;
+    margin: 80px 0px 0px 50px;
+    width: 350px;
+    height: 575px;
+    border: 5px solid rgba(240, 8, 8, 0.719);
+
+
+}
+
+#v{
+
+    margin-top: 0;
+    margin-left: -50px;
+    margin-bottom: 0%;
+    width: 300px;
+}
+
